@@ -68,8 +68,9 @@ interface NavbarComponentProps {
 
   return (
     <div className="w-full">
-      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
-        {/* Logo  */}
+      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0"
+      style={{background: '#71b47e52',borderRadius: '45px !important', top:'28px',padding:'10px'}}>
+      {/* Logo  */}
 
         <DisclosureClient topnav={headerData.topnav} />
 
